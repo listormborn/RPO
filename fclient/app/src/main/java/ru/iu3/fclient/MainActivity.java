@@ -104,9 +104,9 @@ public class MainActivity extends AppCompatActivity {
         /*Intent it = new Intent(this, PinpadActivity.class);
         startActivity(it);*/
         //D.
-        /*Intent it = new Intent(this, PinpadActivity.class);
-        startActivityForResult(it, 0);*/
-        TestHttpClient();
+        Intent it = new Intent(this, PinpadActivity.class);
+        startActivityForResult(it, 0);
+        //TestHttpClient();
     }
 
     protected void TestHttpClient()
